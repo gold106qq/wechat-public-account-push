@@ -64,11 +64,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oZrGs6Tstfo0hZ_XHP052y0Yf8Sg",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "lr7DwDxpwn86NvLBIA9wyGTF0AUHOO1eSgQNpEtJU6s",
+      useTemplateId: "0ik9X_-EnB-Qu_MxveMws64cxJdyE0P4ZrEgMGg9UHU",
       // 所在省份
       province: "贵州省",
       // 所在城市
-      city: "凯里",
+      city: "从江县",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '10-02',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -139,7 +139,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "lr7DwDxpwn86NvLBIA9wyGTF0AUHOO1eSgQNpEtJU6s",
+  CALLBACK_TEMPLATE_ID: "0ik9X_-EnB-Qu_MxveMws64cxJdyE0P4ZrEgMGg9UHU",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
