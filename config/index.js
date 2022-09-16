@@ -28,7 +28,7 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: false,
+    CIBA: true,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oZrGs6Tstfo0hZ_XHP052y0Yf8Sg",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "nhX0sgMb7CO5qGB-NxAiwUXYO_Fp09kHRKETbGGw46k",
+      useTemplateId: "d6J32KAyEpVhsr1N5_FxVwWxd9MCTNI4VRTVNeUyz_w",
       // 所在省份
       province: "贵州",
       // 所在城市
@@ -78,10 +78,10 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "梁吉祥", "year": "2000", "date": "09-05"},
+        {"type": "*生日", "name": "张三", "year": "2000", "date": "09-05"},
         {"type": "节日", "name": "认识纪念日", "year": "2016", "date": "09-01"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "吴丙妹", "year": "2001", "date": "01-20"},
+        {"type": "生日", "name": "李四", "year": "2001", "date": "01-20"},
         {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -139,7 +139,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "nhX0sgMb7CO5qGB-NxAiwUXYO_Fp09kHRKETbGGw46k",
+  CALLBACK_TEMPLATE_ID: "	d6J32KAyEpVhsr1N5_FxVwWxd9MCTNI4VRTVNeUyz_w",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
