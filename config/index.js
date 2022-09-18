@@ -34,9 +34,9 @@ export const config = {
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     // 古诗古文
     poetry: false,
 
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oZrGs6Tstfo0hZ_XHP052y0Yf8Sg",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "hR5OS0hdEhvi74ijsFwjqJ-m64_zeVC11187Bf9fLdM",
+      useTemplateId: "xULZClCwnMrkQ0MgBx_GvMD7DXugNiXtPeln0iX7XuM",
       // 所在省份
       province: "贵州",
       // 所在城市
